@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+ 
+        <i class="bi bi-puzzle-fill"></i>Tic Tac Toe 
+    </div>
+
+    <div class="turn-container">
+        <h3>Turn For</h3>
+        <div class="turn-box align"><i class="fas fa-times"></i></div>
+        <div class="turn-box align"><i class="far fa-circle"></i></div>
+        <div class="bg"></div>
+    </div>
+    <div class="container">
+        <div class="main-grid">
+            <div class="box align" data-index="0"></div>
+            <div class="box align" data-index="1"></div>
+            <div class="box align" data-index="2"></div>
+            <div class="box align" data-index="3"></div>
+            <div class="box align" data-index="4"></div>
+            <div class="box align" data-index="5"></div>
+            <div class="box align" data-index="6"></div>
+            <div class="box align" data-index="7"></div>
+            <div class="box align" data-index="8"></div>
+        </div>
+        <h2 id="results"></h2>
+    </div>
+    <button id="play-again">Play Again</button>
+    <button id="mode-toggle">Switch to Human vs Computer</button>
+    <script src="script.js"></script>
+</body>
+</html>
