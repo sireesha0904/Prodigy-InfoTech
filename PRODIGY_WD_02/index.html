@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2><i class="bi bi-stopwatch-fill"></i> Stopwatch</h2><br>
+        <div class="icon">
+            <img src="stopwatch.png" alt="stopwatch" width="120px" height="120px">
+        </div>
+        <div class="stopwatch">
+            <p>
+                <span class="stopwatch-hrs">00</span>:
+                <span class="stopwatch-min">00</span>:
+                <span class="stopwatch-sec">00</span>:
+                <span class="stopwatch-ms">000</span>
+            </p>
+        </div>
+        <div class="stopwatch-btn">
+            <button class="stopwatch-start"><i class="fas fa-play"></i> Start</button>
+            <button class="stopwatch-stop"><i class="fas fa-pause"></i> Pause</button>
+            <button class="stopwatch-reset"><i class="fas fa-sync-alt"></i> Reset</button>
+        </div>
+        <div class="pause-timings">
+            <h3>Pause Timings</h3>
+            <ul class="timing-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

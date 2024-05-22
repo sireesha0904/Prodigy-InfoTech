@@ -1,0 +1,146 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image:  linear-gradient(to bottom left, rgba(245,245,245,0.5), rgba(245,245,245,0.5)), url('background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  animation: fadeIn 2s ease forwards;
+}
+
+.wrapper {
+  background-color: #4eb9dcca;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.wrapper:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8),
+              0 12px 20px rgba(0, 0, 0, 0.6),
+              0 20px 28px rgba(202, 147, 7, 0.5);
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.icon {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.stopwatch {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.stopwatch span {
+  display: inline-block;
+  min-width: 50px;
+}
+
+.stopwatch-btn button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.stopwatch-btn button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.stopwatch-btn button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 8px 16px rgba(1, 45, 106, 0.8);
+}
+
+.stopwatch-btn button:focus {
+  outline: none;
+}
+
+.stopwatch-btn button.stopwatch-stop {
+  background-color: #dc3545;
+  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.4);
+}
+
+.stopwatch-btn button.stopwatch-stop:hover {
+  background-color: #c82333;
+  box-shadow: 0 8px 16px rgba(75, 2, 9, 0.8);
+}
+
+.stopwatch-btn button.stopwatch-reset {
+  background-color: #ffc107;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(255, 193, 7, 0.4);
+}
+
+.stopwatch-btn button.stopwatch-reset:hover {
+  background-color: #e0a800;
+  box-shadow: 0 8px 16px rgba(88, 67, 3, 0.8);
+}
+
+Pause-timings {
+  margin-top: 20px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.timing-list:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5), 0 6px 6px rgba(11, 69, 83, 0.5);
+}
+
+Pause-timings h3 {
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pause-timings h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.timing-list {
+  list-style: none;
+  padding: 0;
+}
+
+.timing-list li {
+  background-color: #f9f9f9;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
