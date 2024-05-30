@@ -29,9 +29,6 @@ This project is a simple stopwatch application built using HTML, CSS, and JavaSc
 **Technologies Used:**
 HTML, CSS, JavaScript
 
-**How to Run:**
-Open the `index.html` file in a web browser to access the stopwatch.
-
 ![image](https://github.com/sireesha0904/Prodigy-InfoTech/assets/131472116/04f41e87-d66f-4136-9b6c-906157b0ecec)
 
 ---
@@ -49,13 +46,30 @@ Tic Tac Toe game implemented using HTML, CSS, and JavaScript. Play against a fri
 **Technologies Used:**
 HTML, CSS, JavaScript
 
-**How to Run:**
-Launch the `index.html` file in a web browser to start playing Tic Tac Toe.
-
 ![image](https://github.com/sireesha0904/Prodigy-InfoTech/assets/131472116/b5e23119-79a5-4818-aaf3-58678362b299)
 
 ---
 
+# Task - 4 Portfolio Website 
+
+**Description:**
+This project showcases my skills, projects, and accomplishments as a web developer. It includes sections such as Home, About, Skills, Projects, and Contact, all designed with an attractive and visually appealing layout.
+This portfolio website is designed to give a comprehensive view of my professional background, skill set, and projects. It includes a dynamic homepage, detailed sections about my background, a list of skills with icons, project showcases, and a contact form.
+
+**Features:**
+- Home Section: Captivating headline, professional photo, and summary of my skills.
+- About Section: Detailed background, education, and professional experience.
+- Skills Section: List of technical and soft skills with icons.
+- Projects Section: Showcase of selected projects with descriptions.
+- Responsive Design: Optimized for various screen sizes.
+- Smooth Scroll and Animations: Enhance user experience with smooth scrolling and interactive animations.
+
+**Technologies Used:**
+HTML, CSS, JavaScript
+
+![image](https://github.com/sireesha0904/Prodigy-InfoTech/assets/131472116/95b20ae3-8be9-4e28-963a-8b1ae50bd8b6)
+
+  
 # Task - 5 : Weather App
 
 **Description:**
@@ -68,9 +82,6 @@ A weather application that provides current weather information based on user in
 
 **Technologies Used:**
 HTML, CSS, JavaScript, Weather API (provide name if any)
-
-**How to Run:**
-Open the `index.html` file in a web browser and enter the desired location to get weather information.
 
 ![image](https://github.com/sireesha0904/Prodigy-InfoTech/assets/131472116/2e1f2080-ea0a-4d43-8c0c-98fb4f96ef97)
 
